@@ -20,3 +20,7 @@ Route::get('/', function () {
 //     return view('welcome');
 // });
 Route::get('/session', 'UserController@show');
+
+Route::get('/chem', function () {
+    return view('chem');
+});
